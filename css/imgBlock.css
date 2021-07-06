@@ -1,0 +1,19 @@
+.imgBlock {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	margin: 10px;
+	border: 2px solid #d0d0d0;
+	background-color: #f0f0f0;
+}
+
+.imgBlock img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+
+}

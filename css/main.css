@@ -1,0 +1,71 @@
+html, body {
+	width: 100%;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	font-family: 'New Tegomin', serif;
+}
+
+a {
+	color: #808080;
+	text-decoration: none;
+}
+
+.black {
+	color: #000;
+}
+
+a:hover {
+	color: #000;
+}
+
+.bottom20px {
+	margin-bottom: 20px;
+}
+
+.bottom5px {
+	margin-bottom: 5px;
+}
+
+.top20px {
+	margin-top: 20px;
+}
+
+.bigButton {
+	width: 100%;
+}
+
+.bigButton h1 {
+	text-align: center;
+}
+
+.bgNone {
+	background: none;
+}
+
+@media screen and (max-width: 1080px) {
+	h1 {
+		font-size: 3.4em;
+	}
+
+	h2 {
+		font-size: 3em;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 2.4em;
+	}
+
+	p {
+		font-size: 2em;
+	}
+
+	.bottom5px {
+		margin-bottom: 20px;
+	}
+}

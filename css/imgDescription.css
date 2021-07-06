@@ -1,0 +1,12 @@
+.imgDescription {
+	background-color: #f0f0f0;
+	width: 70%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 1080px) {
+	.imgDescription {
+		width: 70%;
+	}
+}

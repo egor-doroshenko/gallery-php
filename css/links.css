@@ -1,0 +1,15 @@
+.button {
+	background-color: #f0f0f0;
+	padding: 3px 10px;
+	border-radius: 3px;
+}
+
+.button:hover {
+	background-color: #c0c0c0;
+}
+
+@media screen and (max-width: 1080px) {
+	.button {
+		font-size: 3em;
+	}
+}
